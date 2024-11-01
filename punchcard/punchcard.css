@@ -1,0 +1,309 @@
+
+/* COOLTIP STYLES ========================================================== */
+
+/* -------------------------------------------------------- shapes / borders */
+div.cooltip 
+{
+	width:           150px;
+	opacity:         .80;
+	filter:          alpha(opacity=80);
+}
+#ct_tooltip 
+{
+	background:      white; 
+	border-left:     1px solid silver;
+	border-right:    1px solid silver;
+	padding:         0 5px 0 5px;
+	text-align:      left;
+}
+#ct_tooltip img 
+{
+	margin:          0 3px;
+	vertical-align:  middle;
+
+	background:      url('punchcard-icons.png') no-repeat;
+	height:          16px;
+	width:           16px;
+}
+#ct_tooltip img.icon-                 { background-position: 0px    0px; } /* 00 */
+
+#ct_tooltip img.icon-backflip         { background-position: 0px  -16px; } /* 01 */
+#ct_tooltip img.icon-blinkbits        { background-position: 0px  -32px; } /* 02 */
+#ct_tooltip img.icon-blinklist        { background-position: 0px  -48px; } /* 03 */
+#ct_tooltip img.icon-blogmarks        { background-position: 0px  -64px; } /* 04 */
+#ct_tooltip img.icon-buddymarks       { background-position: 0px  -80px; } /* 05 */
+#ct_tooltip img.icon-citeulike        { background-position: 0px  -96px; } /* 06 */
+#ct_tooltip img.icon-delicious        { background-position: 0px -112px; } /* 07 */
+#ct_tooltip img.icon-diigo            { background-position: 0px -128px; } /* 08 */
+#ct_tooltip img.icon-digg             { background-position: 0px -144px; } /* 09 */
+#ct_tooltip img.icon-dzone            { background-position: 0px -160px; } /* 10 */
+#ct_tooltip img.icon-feedmarker       { background-position: 0px -176px; } /* 11 */
+#ct_tooltip img.icon-feedmelinks      { background-position: 0px -192px; } /* 12 */
+#ct_tooltip img.icon-furl             { background-position: 0px -208px; } /* 13 */
+#ct_tooltip img.icon-givealink        { background-position: 0px -224px; } /* 14 */
+#ct_tooltip img.icon-gravee           { background-position: 0px -240px; } /* 15 */
+#ct_tooltip img.icon-hyperlinkomatic  { background-position: 0px -256px; } /* 16 */
+#ct_tooltip img.icon-igooi            { background-position: 0px -272px; } /* 17 */
+#ct_tooltip img.icon-kinja            { background-position: 0px -288px; } /* 18 */
+#ct_tooltip img.icon-lilisto          { background-position: 0px -304px; } /* 19 */
+#ct_tooltip img.icon-linkagogo        { background-position: 0px -320px; } /* 20 */
+#ct_tooltip img.icon-linkroll         { background-position: 0px -336px; } /* 21 */
+#ct_tooltip img.icon-looklater        { background-position: 0px -352px; } /* 22 */
+#ct_tooltip img.icon-magnolia         { background-position: 0px -368px; } /* 23 */
+#ct_tooltip img.icon-maple            { background-position: 0px -384px; } /* 24 */
+#ct_tooltip img.icon-netscape         { background-position: 0px -400px; } /* 25 */
+
+#ct_tooltip img.icon-netvouz          { background-position: 0px -416px; } /* 26 */
+#ct_tooltip img.icon-newsvine         { background-position: 0px -432px; } /* 27 */
+#ct_tooltip img.icon-rawsugar         { background-position: 0px -448px; } /* 28 */
+#ct_tooltip img.icon-reddit           { background-position: 0px -464px; } /* 29 */
+#ct_tooltip img.icon-rojo             { background-position: 0px -480px; } /* 30 */
+#ct_tooltip img.icon-scuttle          { background-position: 0px -496px; } /* 31 */
+#ct_tooltip img.icon-segnalo          { background-position: 0px -512px; } /* 32 */
+#ct_tooltip img.icon-shadows          { background-position: 0px -528px; } /* 33 */
+#ct_tooltip img.icon-simpy            { background-position: 0px -544px; } /* 34 */
+#ct_tooltip img.icon-spurl            { background-position: 0px -560px; } /* 35 */
+#ct_tooltip img.icon-squidoo          { background-position: 0px -576px; } /* 36 */
+#ct_tooltip img.icon-tagtooga         { background-position: 0px -592px; } /* 37 */
+#ct_tooltip img.icon-tailrank         { background-position: 0px -608px; } /* 38 */
+#ct_tooltip img.icon-technorati       { background-position: 0px -624px; } /* 39 */
+#ct_tooltip img.icon-unalog           { background-position: 0px -640px; } /* 40 */
+#ct_tooltip img.icon-wink             { background-position: 0px -656px; } /* 41 */
+#ct_tooltip img.icon-wists            { background-position: 0px -672px; } /* 42 */
+#ct_tooltip img.icon-yahoo            { background-position: 0px -688px; } /* 43 */
+#ct_tooltip img.icon-zurpy            { background-position: 0px -704px; } /* 44 */
+
+#ct_tooltip span 
+{
+	font-family:     "Verdana";
+	font-size:       10pt;
+	vertical-align:  middle;
+}
+/* ========================================================== COOLTIP STYLES */
+
+
+
+/* PUNCHCARD STYLES ======================================================== */
+
+
+/* ..default style.......................................................... */
+
+/* -------------------------------------------------------- shapes / borders */
+div.punchcard {
+	width:           107px;
+}
+div.pc_card {
+	height:          35px;
+	font-size:       1px;
+	padding:         6px 2px 0px 4px;
+	border-left:     1px solid silver;
+	border-right:    1px solid silver; 
+}
+div.pc_home {
+	height:          35px;
+	padding:         6px 2px 0px 4px;
+	border-left:     1px solid silver;
+	border-right:    1px solid silver; 
+	text-align:      center;
+}
+div.pc_home a {
+	display:         block;
+	text-decoration: none;
+	font:            small-caps bold 10pt arial;
+	color:           red;
+}
+div.pc_home span {
+	font:            8pt arial;
+}
+div.punchhole {
+	width:           11px;
+	float:           left;
+}
+div.pc_hole {
+	height:          2px;
+	font-size:       1px; 
+	margin:          0px;
+	border:          2px solid;
+}
+/* ------------------------------------------------------------------ colors */
+div.punchcard .bg1 {
+	background:      #eeb; /* should be the same as bc1 */
+} 
+div.punchcard .bc1 {
+	border-color:    #eeb; /* should be the same as bg1 */
+} 
+div.punchable {
+	background:      #ccc;
+}
+div.punched {
+	background:      black;
+}
+
+
+
+/* ..STRIP style............................................................ */
+
+/* -------------------------------------------------------- shapes / borders */
+div.pc_STRIP div.punchcard {
+	width:           250px; /*each slot is 6px width*/
+}
+div.pc_STRIP div.pc_card {
+	height:          12px;
+	font-size:       1px;
+	padding:         1px 2px 0px 4px;
+	border-left:     1px solid;
+	border-right:    1px solid; 
+}
+div.pc_STRIP div.pc_home {
+	height:          35px;
+	padding:         6px 2px 0px 4px;
+	border-left:     1px solid;
+	border-right:    1px solid; 
+	text-align:      center;
+	color:           white;
+}
+div.pc_STRIP div.pc_home a {
+	display:         block;
+	text-decoration: none;
+	font:            small-caps bold 10pt arial;
+	color:           red;
+}
+div.pc_STRIP div.pc_home span {
+	font:            8pt arial;
+	color:           black;
+}
+div.pc_STRIP div.punchhole {
+	width:           6px;
+	float:           left;
+}
+div.pc_STRIP div.pc_hole {
+	height:          7px;
+	font-size:       1px; 
+	margin:          0px;
+	border:          2px solid;
+}
+
+/* ------------------------------------------------------------------ colors */
+
+/*border*/
+div.pc_STRIP div.pc_card,
+div.pc_STRIP div.pc_home,
+div.pc_STRIP div.punchcard .b2,
+div.pc_STRIP div.punchcard .b3,
+div.pc_STRIP div.punchcard .b4,
+div.pc_STRIP div.punchcard .b5 {
+	border-color: red;
+}
+div.pc_STRIP div.punchcard .b1,
+div.pc_STRIP div.punchcard .b6 {
+	background-color: red;
+}
+
+/*inside*/
+div.pc_STRIP div.punchcard .bg1 {
+	background:   #fff; /* should be the same as bc1 */
+} 
+div.pc_STRIP div.punchcard .bc1 {
+	border-color: #fff; /* should be the same as bg1 */
+} 
+div.pc_STRIP div.punchable { 
+	background:   #999999; 
+}
+div.pc_STRIP div.punched { 
+	background:   white; 
+}
+
+
+/* ..MINI style............................................................. */
+
+/* -------------------------------------------------------- shapes / borders */
+div.pc_MINI 
+div.punchcard {
+	width:           100px;
+}
+div.pc_MINI 
+div.pc_card {
+	height:          22px;
+	font-size:       1px;
+	padding:         1px 2px 0px 4px;
+	border-left:     1px solid;
+	border-right:    1px solid; 
+}
+div.pc_MINI 
+div.pc_home {
+	height:          35px;
+	padding:         6px 2px 0px 4px;
+	border-left:     1px solid;
+	border-right:    1px solid; 
+	text-align:      center;
+}
+div.pc_MINI 
+div.pc_home a {
+	display:         block;
+	text-decoration: none;
+	font:            small-caps bold 10pt arial;
+}
+div.pc_MINI 
+div.pc_home span {
+	font:            8pt arial;
+}
+div.pc_MINI 
+div.punchhole {
+	width:           6px;
+	float:           left;
+}
+div.pc_MINI 
+div.pc_hole {
+	height:          3px;
+	font-size:       1px; 
+	margin:          0px;
+	border:          2px solid;
+}
+/* ------------------------------------------------------------------ colors */
+div.pc_MINI 
+div.punchcard .bg1 {
+	background:      #A0C76C; /* should be the same as bc1 */
+} 
+div.pc_MINI 
+div.punchcard .bc1 {
+	border-color:    #A0C76C; /* should be the same as bg1 */
+} 
+div.pc_MINI 
+div.punchable { 
+	background:      yellow; 
+}
+div.pc_MINI 
+div.punched { 
+	background:      #7A6D42; 
+}
+div.pc_MINI 
+div.punchcard .b1,
+div.pc_MINI 
+div.punchcard .b6 {
+	background:      #627A42;
+}
+div.pc_MINI 
+div.punchcard .b2,
+div.pc_MINI 
+div.punchcard .b3,
+div.pc_MINI 
+div.punchcard .b4,
+div.pc_MINI 
+div.punchcard .b5 {
+	border-color:    #627A42;
+}
+div.pc_MINI 
+div.pc_card {
+	border-color:    #627A42;
+}
+div.pc_MINI 
+div.pc_home {
+	border-color:    #627A42;
+	color:           white;
+}
+div.pc_MINI 
+div.pc_home a {
+	color:           red;
+}
+
+/* ======================================================== PUNCHCARD STYLES */

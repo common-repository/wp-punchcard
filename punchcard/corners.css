@@ -1,0 +1,111 @@
+/*
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   
+   x                         do not change below                           x
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 
+*/
+
+/* 
+COOLTIP - symmetrical rounded corners
+*/
+
+div.cooltip .b1 {
+	height:          1px; 
+	font-size:       1px; 
+	overflow:        hidden;
+	display:         block;
+	background:      #aaa;
+	margin:          0 5px;
+}
+div.cooltip .b2 {
+	height:          1px;
+	font-size:       1px;
+	overflow:        hidden;
+	display:         block;
+	background:      #fff;
+	border-right:    2px solid silver;
+	border-left:     2px solid silver;
+	margin:          0 3px;
+}
+div.cooltip .b3 {
+	height:          1px;
+	font-size:       1px;
+	overflow:        hidden;
+	display:         block;
+	background:      #fff;
+	border-right:    1px solid silver;
+	border-left:     1px solid silver;
+	margin:          0 2px;
+}
+div.cooltip .b4 {
+	height:          2px;
+	font-size:       1px;
+	overflow:        hidden;
+	display:         block;
+	background:      #fff;
+	border-right:    1px solid silver;
+	border-left:     1px solid silver;
+	margin:          0 1px;
+}
+
+/* 
+PUNCHCARD - asymmetrical rounded corners   
+*/
+
+/*top*/
+div.punchcard .b1 {
+	display:         block;
+	overflow:        hidden; 
+	height:          1px; 
+	font-size:       1px; 
+	margin:          0 2px 0 4px; 
+	background:      silver; 
+}
+div.punchcard .b2 {
+	display:         block;
+	overflow:        hidden; 
+	height:          1px; 
+	font-size:       1px; 
+	margin:          0 1px 0 3px; 
+	border-left:     1px solid silver; 
+	border-right:    1px solid silver; 
+}
+div.punchcard .b3 {
+	display:         block;
+	overflow:        hidden; 
+	height:          2px; 
+	font-size:       1px; 
+	margin:          0 0 0 2px; 
+	border-left:     1px solid silver; 
+	border-right:    1px solid silver; 
+}
+div.punchcard .b4 {
+	display:         block;
+	overflow:        hidden; 
+	height:          2px; 
+	font-size:       1px; 
+	margin:          0 0 0 1px; 
+	border-left:     1px solid silver; 
+	border-right:    1px solid silver; 
+}
+
+/*bottom*/
+div.punchcard .b5 {
+	display:         block;
+	overflow:        hidden; 
+	height:          1px; 
+	font-size:       1px; 
+	margin:          0 1px 0 1px; 
+	border-left:     1px solid silver; 
+	border-right:    1px solid silver; 
+}
+div.punchcard .b6 {
+	display:         block;
+	overflow:        hidden; 
+	height:          1px; 
+	font-size:       1px; 
+	margin:          0 2px 0 2px; 
+	background:      silver; 
+}
+/*
+   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx   
+*/
